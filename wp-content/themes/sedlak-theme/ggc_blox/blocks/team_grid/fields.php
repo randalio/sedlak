@@ -1,0 +1,93 @@
+<?php
+
+$fields =  array(
+	'key' => 'layout_team_grid_'.$posttype,
+	'name' => 'team_grid_'.$posttype,
+	'label' => 'Team Grid',
+	'display' => 'block',
+	'sub_fields' => array(
+		array(
+				'key' => 'field_team_grid_'.$posttype,
+				'label' => '',
+				'name' => 'team_grid',
+				'type' => 'relationship',
+        'post_type' => 'profile',
+        'filters' => '',
+				'instructions' => 'Click on a Team Member on the left side to add them to the grid. Click on a team member on the right side to remove them from the grid.',
+				'required' => 0,
+        'return_format' => 'object',
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'placement' => 'top',
+				'endpoint' => 0,
+			),
+			array(
+				'key' => 'field_team_grid_padding_top_'.$posttype,
+				'label' => 'Padding Top',
+				'name' => 'padding_top',
+				'type' => 'select',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '50',
+					'class' => '',
+					'id' => '',
+				),
+				'choices' => array(
+					0 => '0',
+					1 => '1',
+					2 => '2',
+					3 => '3',
+					4 => '4',
+				),
+				'default_value' => array(
+					0 => 1,
+				),
+				'allow_null' => 0,
+				'multiple' => 0,
+				'ui' => 0,
+				'return_format' => 'value',
+				'ajax' => 0,
+				'placeholder' => '',
+			),
+			array(
+				'key' => 'field_team_grid_padding_bot_'.$posttype,
+				'label' => 'Padding Bottom',
+				'name' => 'padding_bot',
+				'type' => 'select',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '50',
+					'class' => '',
+					'id' => '',
+				),
+				'choices' => array(
+					0 => '0',
+					1 => '1',
+					2 => '2',
+					3 => '3',
+					4 => '4',
+				),
+				'default_value' => array(
+					0 => 1,
+				),
+				'allow_null' => 0,
+				'multiple' => 0,
+				'ui' => 0,
+				'return_format' => 'value',
+				'ajax' => 0,
+				'placeholder' => '',
+			),
+	),
+	'min' => '',
+	'max' => '',
+);
+
+ ?>

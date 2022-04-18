@@ -1,0 +1,74 @@
+.feature-grid{
+  border-top: 6px solid #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feature-grid .image{
+  background-size: cover;
+  background-position: center center;
+}
+
+.feature-grid .text-background{
+  background-color: #393939;
+}
+
+@media (min-width:1500px){
+
+  .text-background.col-xl-8{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .feature-grid .image{
+    min-height: 12em !important;
+  }
+
+  .feature-grid .text-background {
+      background-color: rgba(57, 57, 57, 0.85);
+  }
+
+}
+
+.feature-grid .headline a{
+  color: #eaeff3 !important;
+  font-weight: 600;
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 0.75em;
+  text-decoration: none !important;
+}
+
+.feature-grid p{
+  color: #eaeff3;
+  font-size: 1em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+ .feature-grid a.btn-caret{
+  color: #5fb157 !important;
+  font-weight: 700;
+  padding: 0;
+  font-size: 1em;
+  letter-spacing: 0.025em;
+  text-decoration: none !important;
+}
+
+.feature-grid .btn-caret:after{
+  content: '\25B8';
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  color: #5fb157;
+  margin-left: 0.4em;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.feature-grid .btn-caret:hover,
+.feature-grid .btn-caret:hover:after{
+  color: #eaeff3 !important;
+}

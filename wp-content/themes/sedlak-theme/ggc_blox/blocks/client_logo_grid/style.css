@@ -1,0 +1,28 @@
+.modal{
+  background: rgba(46, 102, 175, 0.5);
+  /* transition: all .5s ease-in !important; */
+}
+.modal.fade .modal-dialog{
+/* transition: all .33s ease !important; */
+}
+
+.logo-grid *:not(a){
+  color: #464646 !important;
+}
+
+.partner .tile{
+  border: 1px solid #c2c2c2;
+}
+
+.partner .partner-info{
+  background: #f8f8f6;
+  border-top: 1px solid #c2c2c2;
+}
+
+.partner .partner-info h6{
+  font-weight: 700;
+  color: 464646;
+}
+.partner .partner-info .categories{
+  font-size: 0.85em;
+}

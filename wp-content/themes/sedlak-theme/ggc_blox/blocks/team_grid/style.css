@@ -1,0 +1,26 @@
+/* .team-grid .photo img{
+  border-bottom: 10px solid #393939;
+} */
+
+.team-grid .tile-wrap{
+  background-color: #f4f4f4;
+  border: 1px solid #c1c1c1;
+}
+
+.team-grid a{
+  color: #464646 !important;
+  text-decoration: none !important;
+}
+
+.team-grid.name{
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #464646;
+}
+
+
+.team-grid .title a{
+  font-weight: 300;
+  font-style: italic;
+  color: #2e66ae !important;
+}

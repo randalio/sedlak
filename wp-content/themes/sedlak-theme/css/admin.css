@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+.wp-menu-image:before{
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* PAGE */
+#adminmenu .menu-icon-page .wp-menu-image:before {
+   font-family: 'Font Awesome\ 5 Pro' !important;
+   font-weight: 900;
+   content: "\f109";
+   font-size: 18px !important;
+   display: inline-block;
+}
+
+/* INDUSTRY */
+#adminmenu .menu-icon-industry .wp-menu-image:before {
+  font-family: 'Font Awesome\ 5 Pro' !important;
+  font-weight: 900;
+  content: "\f64f";
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* SERVICE */
+#adminmenu .menu-icon-service .wp-menu-image:before {
+  font-family: 'Font Awesome\ 5 Pro' !important;
+  font-weight: 900;
+  content: "\f474";
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* POST */
+#adminmenu .menu-icon-post .wp-menu-image:before {
+  font-family: 'Font Awesome\ 5 Pro' !important;
+  font-weight: 900;
+  content: "\f303";
+  font-size: 18px !important;
+  display: inline-block;
+}
+
+
+
+/* VIDEO */
+#menu-posts-video{ margin-top: 0.75em !important; }
+#adminmenu .menu-icon-video .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Brands' !important;
+  font-weight: 900;
+  content: "\f167"; /* YouTube Play */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* WHITEPAPER */
+#adminmenu .menu-icon-white-paper .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f15b"; /* File */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* Case Study */
+#adminmenu .menu-icon-case-study .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f316"; /* File Check */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+
+/* Testimonials */
+#adminmenu .menu-icon-testimonial .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f4aa"; /* Comment Smile */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* Profiles */
+#adminmenu .menu-icon-profile .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f2bd"; /* user circle */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* Partners */
+#adminmenu .menu-icon-partner .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f005"; /* Star */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* Clients */
+#adminmenu .menu-icon-client .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f336"; /* Badge */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* Events */
+#adminmenu .menu-icon-event .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f736"; /* Calendar Star */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* Redirects */
+#adminmenu .menu-icon-redirect_301 .wp-menu-image:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f0e7"; /* Lightning */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+
+/* SAVED LAYOUT */
+#adminmenu .menu-icon-saved_layout .wp-menu-image:before{
+  font-family: 'Font Awesome 5 Pro' !important;
+  font-weight: 900;
+  content: "\f550"; /* Stream */
+  font-size: 18px !important;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+
+
+
+#adminmenu #toplevel_page_ggc_blox_settings .wp-menu-image:before {
+ font-family: 'Font Awesome\ 5 Pro' !important;
+ font-weight: 900;
+ content: "\f61f";
+ font-size: 18px !important;
+ display: inline-block;
+ margin-top: 2px;
+}
+
+#adminmenu #toplevel_page_nestedpages .wp-menu-image:before {
+ font-family: 'Font Awesome\ 5 Pro' !important;
+ font-weight: 900;
+ content: "\f109"; /* WINDOW RESTORE */
+ font-size: 18px !important;
+ display: inline-block;
+ margin-top: 2px;
+}
+
+#adminmenu #toplevel_page_theme-general-settings .wp-menu-image:before {
+ font-family: 'Font Awesome\ 5 Pro' !important;
+ font-weight: 900;
+ content: "\f121";
+ font-size: 18px !important;
+ display: inline-block;
+ margin-top: 2px;
+}
+
+
+.menu-item-depth-1 .dropdown_columns,
+.menu-item-depth-2 .dropdown_columns{
+  display: none !important;
+}
+
+
+
+.acf_test_class{
+  height: 100% !important;
+}
+
+.acf-field-content-blocks-two-col-sidebar-page .acf-field[data-width]{
+  width: 100% !important;
+}
+
+
+
+.post-type-redirect_301 #wpseo_meta{
+  display: none !important;
+}

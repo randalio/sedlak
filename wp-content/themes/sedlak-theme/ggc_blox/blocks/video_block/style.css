@@ -1,0 +1,113 @@
+.video-block h2{
+  font-size: 1.25em;
+  line-height: 1em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.video-block .video{
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.video-block video{
+  min-height: 100%;
+  background: #000;
+  object-fit: cover;
+}
+
+.video-block img{
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  width: 100%;
+}
+
+.video-block img,
+.video-block i{
+  cursor: pointer;
+}
+
+
+.video-block .video-text{
+  background-color: #3e4c9b;
+}
+
+.video-block h2,
+.video-block p,
+.video-block a{
+  color: #fff;
+}
+
+.video-block p,
+.video-block li {
+  font-weight: 300;
+  line-height: 1.8em;
+  font-size: 1em;
+}
+
+.video-block a.btn-bar {
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+  font-size: 1em;
+  text-decoration: none;
+  margin-top: 1em;
+  padding-bottom: 1em !important;
+}
+
+.video-block iframe,
+.video-block video{
+  width: 100%;
+}
+
+.video-block .videofile .play-button,
+.video-block .youtube .play-button{
+		margin: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%);
+    background-color: transparent;
+    z-index: 1;
+		transform: translate(-50%, -50%);
+    color: rgba(255,255,255,0.95);
+}
+
+.video-block .videofile .play-button i,
+.video-block .youtube .play-button i{
+  font-size: 5rem;
+	transition: all .25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: inline-block;
+  text-shadow: 0rem 0rem 5rem rgba(0,0,0,0.25);
+}
+
+.video-block .videofile .play-button:hover i,
+.video-block .youtube .play-button:hover i{
+	opacity: 1.0;
+	font-size: 7rem;
+}
+
+.video-block .videofile .play-button:hover i.bye,
+.video-block .youtube .play-button:hover i.bye{
+		transition: all 1s ease !important;
+}
+
+.video-block .videofile .play-button i.bye,
+.video-block .youtube .play-button i.bye{
+	transition: all 1s ease !important;
+  opacity: 0;
+}
+
+
+@media (max-width: 1024px){
+  .video-block img{
+    max-height: 460px;
+  }
+}
+
+@media (max-width: 756px){
+  .video-block img{
+    max-height: 260px;
+  }
+}

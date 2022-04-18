@@ -1,0 +1,93 @@
+<?php
+$fields =  array(
+	'key' => 'layout_sidebar_nav_'.$posttype,
+	'name' => 'sidebar_nav_'.$posttype,
+	'label' => 'Sidebar Nav Menu',
+	'display' => 'block',
+	'sub_fields' => array(
+		array(
+			'key' => 'field_sidebar_nav_menu_'.$posttype,
+			'label' => 'Choose Menu',
+			'name' => 'sidebar_menu',
+			'type' => 'nav_menu',
+			'required' => 0,
+			'save_format' => 'id',
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+		),
+		array(
+			'key' => 'field_sidebar_nav_padding_top_'.$posttype,
+			'label' => 'Padding Top',
+			'name' => 'padding_top',
+			'type' => 'select',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '50',
+				'class' => '',
+				'id' => '',
+			),
+			'choices' => array(
+				0 => '0',
+				1 => '1',
+				2 => '2',
+				3 => '3',
+				4 => '4',
+			),
+			'default_value' => array(
+				0 => 1,
+			),
+			'allow_null' => 0,
+			'multiple' => 0,
+			'ui' => 0,
+			'return_format' => 'value',
+			'ajax' => 0,
+			'placeholder' => '',
+		),
+		array(
+			'key' => 'field_sidebar_nav_padding_bot_'.$posttype,
+			'label' => 'Padding Bottom',
+			'name' => 'padding_bot',
+			'type' => 'select',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '50',
+				'class' => '',
+				'id' => '',
+			),
+			'choices' => array(
+				0 => '0',
+				1 => '1',
+				2 => '2',
+				3 => '3',
+				4 => '4',
+			),
+			'default_value' => array(
+				0 => 1,
+			),
+			'allow_null' => 0,
+			'multiple' => 0,
+			'ui' => 0,
+			'return_format' => 'value',
+			'ajax' => 0,
+			'placeholder' => '',
+		),
+	),
+	'min' => '',
+	'max' => '',
+);
+
+//return $fields;
+?>

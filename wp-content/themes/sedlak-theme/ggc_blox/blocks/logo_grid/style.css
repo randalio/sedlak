@@ -1,0 +1,40 @@
+.logo-carousel-block h2{
+  font-weight: 700;
+}
+
+.logo-carousel-block:not(.industry){
+  border-bottom: 1px solid #c1c8cd;
+}
+
+.logo-carousel-block.industry,
+.logo-carousel-block.industry .text-center{
+  background-color: #efefef;
+}
+
+.logo-carousel-block .text-center{
+  background-blend-mode: multiply !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+/* .logo-carousel-block .fade_left{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 100%);
+  z-index: 99999;
+}
+.logo-carousel-block .fade_right{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 75%);
+  z-index: 99999;
+} */

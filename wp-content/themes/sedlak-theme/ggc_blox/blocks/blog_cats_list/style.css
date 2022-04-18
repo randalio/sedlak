@@ -1,0 +1,37 @@
+.blog-cats-list-row{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.blog-cats-list-row .headline h4{
+  font-size: 1.1em;
+  color: #012445;
+  font-weight: 600;
+  line-height: 1.6em;
+  padding-left:1.1em;
+  text-align:left;
+}
+
+.blog-cats-list-row ul{
+      padding-left: 2.25em;
+}
+
+.blog-cats-list-row ul li{
+  list-style-type:none;
+  list-style-type: none;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.blog-cats-list-row ul li a{
+    color: #0067ac;
+    text-decoration:none;
+}
+.blog-cats-list-row ul li a:hover{
+  text-decoration:underline;
+}
+
+.blog-sidebar .posts-by-topic{
+  border-left: 1px solid #e2e2e2;
+}

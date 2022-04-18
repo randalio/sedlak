@@ -1,0 +1,23 @@
+.blog-list h5,
+.blog-grid h5{
+  font-weight: 700;
+}
+
+
+.blog-list a,
+.blog-grid a{
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.blog-list h5 a,
+.blog-grid h5 a{
+  text-decoration: none !important;
+  color: #464646 !important;
+}
+
+
+.blog-list h5 a:hover,
+.blog-grid h5 a:hover{
+  color: #2e66ae !important;
+}

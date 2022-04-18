@@ -1,0 +1,530 @@
+<?php
+
+if( function_exists('acf_add_local_field_group') ):
+
+  // HEADER SETTINGS
+  acf_add_local_field_group(array(
+  	'key' => 'group_site_header_settings',
+  	'title' => 'Site Header',
+  	'fields' => array(
+  		array(
+  			'key' => 'field_site_header_logo',
+  			'label' => 'Header Logo',
+  			'name' => 'header_logo',
+  			'type' => 'image',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '',
+  				'class' => '',
+  				'id' => '',
+  			),
+  			'return_format' => 'array',
+  			'preview_size' => 'medium',
+  			'library' => 'all',
+  		),
+  	),
+  	'location' => array(
+  		array(
+  			array(
+  				'param' => 'options_page',
+  				'operator' => '==',
+  				'value' => 'acf-options-header-footer',
+  			),
+  		),
+  	),
+  	'menu_order' => 0,
+  	'position' => 'normal',
+  	'style' => 'default',
+  	'label_placement' => 'top',
+  	'instruction_placement' => 'label',
+  	'hide_on_screen' => '',
+  	'active' => true,
+  	'description' => '',
+  ));
+
+
+  // HEADER SETTINGS
+  acf_add_local_field_group(array(
+  	'key' => 'group_site_footer_settings',
+  	'title' => 'Site Footer',
+  	'fields' => array(
+  		array(
+  			'key' => 'field_company_name',
+  			'label' => 'Company Name',
+  			'name' => 'company_name',
+  			'type' => 'text',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '',
+  				'class' => '',
+  				'id' => '',
+  			),
+  		),
+      array(
+  			'key' => 'field_address_line_1',
+  			'label' => 'Address Line 1',
+  			'name' => 'address_line_1',
+  			'type' => 'text',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '50',
+  				'class' => '',
+  				'id' => '',
+  			),
+  		),
+      array(
+  			'key' => 'field_address_line_2',
+  			'label' => 'Address Line 2',
+  			'name' => 'address_line_2',
+  			'type' => 'text',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '50',
+  				'class' => '',
+  				'id' => '',
+  			),
+  		),
+      array(
+  			'key' => 'field_city_state_zip',
+  			'label' => 'City, State ZIP',
+  			'name' => 'city_state_zip',
+  			'type' => 'text',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '50',
+  				'class' => '',
+  				'id' => '',
+  			),
+  		),
+      array(
+        'key' => 'field_phone_number',
+        'label' => 'Phone Number',
+        'name' => 'phone_number',
+        'type' => 'text',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '50',
+          'class' => '',
+          'id' => '',
+        ),
+      ),
+  	),
+  	'location' => array(
+  		array(
+  			array(
+  				'param' => 'options_page',
+  				'operator' => '==',
+  				'value' => 'acf-options-header-footer',
+  			),
+  		),
+  	),
+  	'menu_order' => 0,
+  	'position' => 'normal',
+  	'style' => 'default',
+  	'label_placement' => 'top',
+  	'instruction_placement' => 'label',
+  	'hide_on_screen' => '',
+  	'active' => true,
+  	'description' => '',
+  ));
+
+  // SOCIAL MEDIA LINKS
+  acf_add_local_field_group(array(
+  	'key' => 'group_social_media_urls',
+  	'title' => 'Social Media Links',
+  	'fields' => array(
+  		array(
+  			'key' => 'field_facebook',
+  			'label' => 'Facebook URL',
+  			'name' => 'facebook_url',
+  			'type' => 'url',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '',
+  				'class' => '',
+  				'id' => '',
+  			),
+  		),
+      array(
+        'key' => 'field_linkedin_url',
+        'label' => 'LinkedIn URL',
+        'name' => 'linkedin_url',
+        'type' => 'url',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '',
+          'class' => '',
+          'id' => '',
+        ),
+      ),
+  	),
+  	'location' => array(
+  		array(
+  			array(
+  				'param' => 'options_page',
+  				'operator' => '==',
+  				'value' => 'acf-options-header-footer',
+  			),
+  		),
+  	),
+  	'menu_order' => 0,
+  	'position' => 'normal',
+  	'style' => 'default',
+  	'label_placement' => 'top',
+  	'instruction_placement' => 'label',
+  	'hide_on_screen' => '',
+  	'active' => true,
+  	'description' => '',
+  ));
+
+  // Contact Info
+  acf_add_local_field_group(array(
+  	'key' => 'group_contact_info',
+  	'title' => 'Contact Info',
+  	'fields' => array(
+      array(
+        'key' => 'field_phone_number',
+        'label' => 'Contact Phone Number',
+        'name' => 'contact_phone',
+        'type' => 'text',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+  		array(
+  			'key' => 'field_contact_us_page',
+  			'label' => 'Contact Us Page',
+  			'name' => 'contact_us_page',
+  			'type' => 'post_object',
+        'post_type' => 'page',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '',
+  				'class' => '',
+  				'id' => '',
+  			),
+  			'return_format' => 'id',
+  		),
+  		array(
+  			'key' => 'field_contact_info_headline',
+  			'label' => 'Headline',
+  			'name' => 'contact_info_headline',
+  			'type' => 'text',
+  			'instructions' => 'Enter a headline for the contact info block.',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '',
+  				'class' => '',
+  				'id' => '',
+  			),
+  			'default_value' => '',
+  			'placeholder' => '',
+  			'prepend' => '',
+  			'append' => '',
+  			'maxlength' => '',
+  		),
+  		array(
+  			'key' => 'field_contact_info_email_text',
+  			'label' => 'Email Button Text',
+  			'name' => 'contact_info_email_text',
+  			'type' => 'text',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '33',
+  				'class' => '',
+  				'id' => '',
+  			),
+  			'default_value' => '',
+  			'tabs' => 'all',
+  			'toolbar' => 'full',
+  			'media_upload' => 1,
+  			'delay' => 1,
+  		),
+      array(
+  			'key' => 'field_contact_info_tel_text',
+  			'label' => 'Telephone Button Text',
+  			'name' => 'contact_info_tel_text',
+  			'type' => 'text',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '33',
+  				'class' => '',
+  				'id' => '',
+  			),
+  			'default_value' => '',
+  			'tabs' => 'all',
+  			'toolbar' => 'full',
+  			'media_upload' => 1,
+  			'delay' => 1,
+  		),
+      array(
+  			'key' => 'field_contact_info_office_text',
+  			'label' => 'Location Button Text',
+  			'name' => 'contact_info_office_text',
+  			'type' => 'text',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '33',
+  				'class' => '',
+  				'id' => '',
+  			),
+  			'default_value' => '',
+  			'tabs' => 'all',
+  			'toolbar' => 'full',
+  			'media_upload' => 1,
+  			'delay' => 1,
+  		),
+  	),
+  	'location' => array(
+  		array(
+  			array(
+  				'param' => 'options_page',
+  				'operator' => '==',
+  				'value' => 'theme-general-settings',
+  			),
+  		),
+  	),
+  	'menu_order' => 0,
+  	'position' => 'normal',
+  	'style' => 'default',
+  	'label_placement' => 'top',
+  	'instruction_placement' => 'label',
+  	'hide_on_screen' => '',
+  	'active' => true,
+  	'description' => '',
+  ));
+
+
+
+
+  // Site Pages
+  acf_add_local_field_group(array(
+  	'key' => 'group_site_pages',
+  	'title' => 'Contact Info',
+  	'fields' => array(
+      array(
+        'key' => 'field_blog_page',
+        'label' => 'Blog Page',
+        'name' => 'blog_page',
+        'type' => 'post_object',
+        'post_type' => 'page',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '33',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+      array(
+        'key' => 'field_blog_form_headline',
+        'label' => 'Subscribe Form Headline',
+        'name' => 'subscribe_headline',
+        'type' => 'text',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '33',
+          'class' => '',
+          'id' => '',
+        ),
+      ),
+      array(
+        'key' => 'field_blog_form',
+        'label' => 'Subscribe Form ',
+        'name' => 'subscribe_form',
+        'type' => 'forms',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '33',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+  		array(
+  			'key' => 'field_whitepapers_page',
+  			'label' => 'White Papers Page',
+  			'name' => 'whitepapers_page',
+  			'type' => 'post_object',
+        'post_type' => 'page',
+  			'instructions' => '',
+  			'required' => 0,
+  			'conditional_logic' => 0,
+  			'wrapper' => array(
+  				'width' => '33',
+  				'class' => '',
+  				'id' => '',
+  			),
+  			'return_format' => 'id',
+  		),
+      array(
+        'key' => 'field_whitepapers_form_headline',
+        'label' => 'White Paper Form Headline',
+        'name' => 'whitepapers_form_headline',
+        'type' => 'text',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '33',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+      array(
+        'key' => 'field_whitepapers_form',
+        'label' => 'White Paper Lead Capture Form',
+        'name' => 'whitepapers_form',
+        'type' => 'forms',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '33',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+      array(
+        'key' => 'field_videos_page',
+        'label' => 'Videos Page',
+        'name' => 'videos_page',
+        'type' => 'post_object',
+        'post_type' => 'page',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+      array(
+        'key' => 'field_team_page',
+        'label' => 'Team Page',
+        'name' => 'team_page',
+        'type' => 'post_object',
+        'post_type' => 'page',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '50',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+      array(
+        'key' => 'field_team_form',
+        'label' => 'Team Page Lead Capture Form',
+        'name' => 'team_form',
+        'type' => 'forms',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '50',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+      array(
+        'key' => 'field_team_form_headline',
+        'label' => 'Team Form Headline',
+        'name' => 'team_form_headline',
+        'type' => 'text',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '33',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+
+      array(
+        'key' => 'field_team_form_text',
+        'label' => 'Team Form Text',
+        'name' => 'team_form_text',
+        'type' => 'text',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '66',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'id',
+      ),
+  	),
+  	'location' => array(
+  		array(
+  			array(
+  				'param' => 'options_page',
+  				'operator' => '==',
+  				'value' => 'theme-general-settings',
+  			),
+  		),
+  	),
+  	'menu_order' => 0,
+  	'position' => 'normal',
+  	'style' => 'default',
+  	'label_placement' => 'top',
+  	'instruction_placement' => 'label',
+  	'hide_on_screen' => '',
+  	'active' => true,
+  	'description' => '',
+  ));
+
+
+
+
+endif;
+
+?>

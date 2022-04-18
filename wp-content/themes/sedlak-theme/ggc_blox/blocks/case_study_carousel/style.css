@@ -1,0 +1,25 @@
+.case-study-owl-carousel .tile-wrap{
+  border: 1px solid #c1c8cd;
+  background: #F8F8F5;
+}
+
+.case-study-owl-carousel .case-study-logo-image{
+  border-bottom: 1px solid #c1c8cd;
+}
+
+.case-study-owl-carousel .owl-dots{
+  text-align: center;
+}
+
+
+.case-study-owl-carousel .owl-dot{
+  background: #c1c8cd !important;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin: 0px 4px;
+  outline: none !important;
+}
+.case-study-owl-carousel .owl-dot.active{
+  background: #2e66ae !important;
+}

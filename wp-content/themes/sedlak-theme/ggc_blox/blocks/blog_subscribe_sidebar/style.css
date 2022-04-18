@@ -1,0 +1,86 @@
+.blog-subscribe-sidebar .hbspt-form label{
+  margin-bottom: 0px;
+font-size: 0.85em;
+font-weight: 300;
+text-align:left !important;
+display:block;
+padding:0px 18px;
+}
+
+.blog-subscribe-sidebar .hbspt-form .text-center{
+}
+
+.blog-subscribe-sidebar .hbspt-form .hs-form-required{
+  color: #790000;
+    margin-left: 4px;
+}
+
+.blog-subscribe-sidebar h3{
+  padding-top:10px;
+}
+
+.blog-subscribe-sidebar h3 span{
+  display:block;
+}
+.blog-subscribe-sidebar h3 span span{
+    font-weight: 700;
+    display:inline-block;
+}
+
+.blog-subscribe-sidebar .py-3.subscribe-sidebar-cta{margin-bottom:0px !important;padding-bottom:0px !important;}
+
+.blog-subscribe-sidebar input, .blog-subscribe-sidebar select{width:86% !important;}
+.subscribe-sidebar-form.col{padding:0px !important;}
+
+.blog-subscribe-sidebar input[type="text"], .blog-subscribe-sidebar input[type="email"], .blog-subscribe-sidebar select{
+  border-radius: 0px;
+    border: 1px solid #0064a8;
+    font-size: inherit;
+font-family: inherit;
+padding: 5px 4px;
+letter-spacing: normal;
+width: 100%;
+display: inline-block;
+background-color: #014a81;
+border-bottom: 1px solid #fff !important;
+color: #fff;
+}
+
+.blog-subscribe-sidebar .legal-consent-container{padding:10px 15px;}
+.blog-subscribe-sidebar .legal-consent-container p{font-size:12px;line-height:14px;}
+
+.blog-subscribe-sidebar ul.inputs-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.blog-subscribe-sidebar .hs-form-booleancheckbox label{
+  padding:0px;
+}
+
+.blog-subscribe-sidebar .hs-form-booleancheckbox label span{padding: 0;
+    width: auto;
+    line-height: 20px;
+    font-size: 14px;
+    vertical-align: middle;
+    max-width: 85%;
+    white-space: normal;
+  display:inline-block;}
+
+.blog-subscribe-sidebar input[type="checkbox"]{
+  width:auto !important;
+  display:inline-block;
+  margin-right:10px;
+}
+
+.blog-subscribe-sidebar label.hs-error-msg {
+    line-height: 18px;
+    font-size: 12px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.blog-subscribe-sidebar .hs-form-field{margin-bottom:10px;}
+
+
+.blog-subscribe-sidebar .hs-form-field div.input{margin-right:0px !important;}

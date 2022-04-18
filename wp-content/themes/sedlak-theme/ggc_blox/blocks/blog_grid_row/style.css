@@ -1,0 +1,82 @@
+.blog-grid-row .headline h2{
+  color: #0064a8;
+  margin-bottom: .5em;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+
+.blog-grid-row .cta-button a{
+  font-size: 1.1em;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 1em;
+  transition: all 0.5s ease;
+  color: #ab172b;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.blog-grid-row .cta-button a:hover{
+  color: #0A2544;
+}
+
+.blog-grid-row .row:first-of-type{
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.blog-grid-row .col{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+
+.blog-grid-row .item{
+  padding-left:25px;
+  padding-right:25px;
+}
+
+.blog-grid-row .item img{
+  border-top: 10px solid #181b61;
+  max-width:100%;
+}
+
+.blog-grid-row .item h4{
+  font-size: 21px;
+  line-height:1.2em;
+  font-weight: bold;
+  margin-bottom:12px;
+  color:#181b61 ;
+}
+
+.blog-grid-row .item .grid-blog-date span{
+  color: #0064A8;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.blog-grid-row .item .grid-blog-excerpt{
+  font-size: 16px;
+  line-height: 1.625em;
+  color: #012445;
+  font-weight: 300;
+}
+
+.blog-grid-row .item .grid-blog-cta{
+  border-top: 1px solid #fff;
+}
+
+.blog-grid-row .item .grid-blog-cta a{
+  display: inline-block;
+  text-decoration: none;
+  color: #ab172b;
+font-weight: 700;
+margin-top: 10px;
+border-bottom-width: 1px;
+    border-bottom-style: dotted;
+}
+
+.blog-grid-row .item .grid-blog-cta a:hover{
+  border-bottom-style: solid;
+}

@@ -1,0 +1,122 @@
+.asset-feature{
+  overflow: hidden;
+  position: relative;
+  color: #eaeff3;
+  background-size: cover;
+}
+
+.asset-feature:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #5fb157;
+  mix-blend-mode: multiply;
+}
+
+.asset-feature h2{
+  font-size: 2.2em;
+  line-height: 1.2em;
+}
+@media only screen and (max-width: 768px) {
+  .asset-feature h2{
+    font-size: 1.8em;
+    line-height: 1.2em;
+  }
+}
+.asset-feature p,
+.asset-feature a.btn-bar{
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+.asset-feature h2,
+.asset-feature h4,
+.asset-feature p,
+.asset-feature li{
+  color: #eaeff3 !important;
+}
+
+
+.asset-feature a.btn-bar{
+  color: #eaeff3 !important;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 30px;
+  text-decoration: none !important;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+  z-index: 99;
+}
+
+.asset-feature a.btn-bar:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  background-color: rgba(234,239,243,1) !important;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  border-radius: 2px;
+}
+
+.asset-feature h2 a,
+.asset-feature h4 a{
+  color: #eaeff3 !important;
+  text-decoration: none !important;
+}
+/*
+.asset-feature h2 a:hover,
+.asset-feature h4 a:hover{
+  text-decoration: underline !important;
+} */
+
+
+/* .asset-feature a.btn-bar:hover{
+  color:#5fb157 !important;
+} */
+
+
+
+.asset-feature a.btn-bar:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  background-color: rgba(234,239,243,1) !important;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  border-radius: 2px;
+}
+
+.asset-feature a.btn-bar span{
+  z-index: 99;
+  position: relative;
+}
+
+
+.asset-feature a.btn-bar:before{
+  content: '';
+  display: block;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  background-color: rgba(64,145,56,0) !important;
+  transition: all 0.25s ease-out;
+}
+
+
+.asset-feature a.btn-bar:hover:before{
+  height: 100%;
+  background-color: rgba(64,145,56,1) !important;
+}

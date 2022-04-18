@@ -1,0 +1,103 @@
+.sidebar-menu .sub-menu{
+  position: relative;
+  display: block;
+  float: none;
+  border: none;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  transition: height 0.25s ease-in-out;
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.sidebar-menu .sub-menu li:first-child{
+  padding-top: 1em;
+}
+.sidebar-menu .sub-menu li:last-child{
+  padding-bottom: 1em;
+}
+
+.sidebar-menu li:not(.active) > .dropdown-menu{
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sidebar-menu .dropdown-item:focus,
+.sidebar-menu .dropdown-item:hover{
+  background: transparent;
+}
+
+.sidebar-menu ul > li.menu-item-has-children > a,
+.sidebar-menu ul > li.menu-item-has-children:hover > a{
+  background: #C0D1E7;
+  display: block;
+  color: #2e66ae;
+  text-decoration: none !important;
+  font-weight: 700;
+  font-size: 1.1em;
+  line-height: 1em;
+  padding: 1rem;
+  /* padding-left: 1em; */
+  position: relative;
+  margin-bottom: 4px;
+}
+.sidebar-menu ul > li.active.menu-item-has-children > a,
+.sidebar-menu ul > li.active.menu-item-has-children:hover > a{
+  background: #2e66ae;
+  color: #fff !important;
+}
+.sidebar-menu ul > li.menu-item-has-children:hover > a{
+  background: #9cb7db;
+  color:  #2e66ae !important;
+}
+
+.sidebar-menu li.menu-item-has-children ul.show{
+  padding: 1em 0;
+}
+
+.sidebar-menu ul > li.menu-item-has-children > a:after{
+  content: '\f067';
+  font-family: 'Font Awesome 5 Pro' !important;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  border: none;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  font-size: .9em;
+}
+
+.sidebar-menu ul > li.menu-item-has-children.active > a:after{
+  content: '\f068';
+}
+
+.sidebar-menu ul > li.menu-item-has-children > ul > li > a{
+  color: #464646 !important;
+  text-decoration: none !important;
+  padding: 0 2em;
+  position: relative;
+}
+
+.sidebar-menu ul > li.menu-item-has-children > ul > li > a:hover{
+  color: #2e66ae !important;
+}
+
+.sidebar-menu ul > li.active.menu-item-has-children > ul > li.current-menu-item a{
+  color: #2e66ae !important;
+}
+
+.sidebar-menu ul > li.active.menu-item-has-children > ul > li.current-menu-item a:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top:50%;
+  left: 0;
+  background: #2e66ae;
+  width: 0.5em;
+  height: 0.75em;
+  transform: translateY(-50%);
+}

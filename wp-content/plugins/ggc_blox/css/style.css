@@ -1,0 +1,86 @@
+.two-columns.sidebar_l .row .col-md-4 .background_div{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position:  center;
+}
+
+.two-columns.sidebar_l .row .col-md-8 .background_div{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position:  center;
+}
+
+
+.two-columns.sidebar_r .row .col-md-4 .background_div{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position:  center;
+}
+
+.two-columns.sidebar_r .row .col-md-8 .background_div{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position:  center;
+}
+
+.two-columns.sidebar_r img,
+.two-columns.sidebar_l img{
+  max-width: 100%;
+  height: auto;
+}
+
+.two-columns.sidebar_r .row .col-md-4 .background_div{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position:  center;
+}
+
+.even_split.two-columns .row .col-md-6:first-child .background_div{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position:  center;
+}
+
+.even_split.two-columns .row .col-md-6:last-child .background_div{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position:  center;
+}

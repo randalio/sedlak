@@ -1,0 +1,67 @@
+.blog-subscribe .subscribe-cta span{
+      font-size: 1.7rem;
+      vertical-align: middle;
+      margin-right: 2rem;
+}
+.blog-subscribe .subscribe-cta {
+    background-color: #0065ad;
+    color: #FFFFFF;
+}
+
+
+.blog-subscribe #blog-signup-btn{
+border: 1px solid #FFFFFF;
+background: transparent;
+border-radius: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+padding-left: 3rem;
+padding-right: 3rem;
+cursor:pointer;
+}
+
+.subscribe-form{display:none;}
+.subscribe-form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    border-radius: 0px;
+    border: 1px solid #0064a8;
+}
+
+.subscribe-form input[type=submit].large {
+    font-size: 1.25rem;
+}
+
+
+
+.subscribe-form .hbspt-form {
+    max-width: 500px;
+    margin: 30px auto 0px auto;
+}
+
+.blog-subscribe.container-fluid{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.subscribe-form .hbspt-form ul{
+  list-style-type:none;
+  padding-left:0px;
+}
+
+.subscribe-form form li.hs-form-radio{
+	list-style-type:none;
+	display:inline-flex;
+}
+.subscribe-form form li input{
+	margin-right:3px;
+}
+.subscribe-form form li.hs-form-radio label{line-height:1em;padding:0px;margin:0px;margin-right:15px;display:inline-block;font-size:14px;}
+
+.subscribe-form label.hs-error-msg {
+    color: red;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+.subscribe-form fieldset:nth-of-type(3){
+  margin-top:20px;
+}

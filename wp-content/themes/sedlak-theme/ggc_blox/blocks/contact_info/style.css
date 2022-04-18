@@ -1,0 +1,46 @@
+.contact-info .row{
+  background-size: cover;
+  background-color: #464646;
+}
+.contact-info h2,
+.contact-info a,
+.contact-info span{
+  color: #fff !important;
+}
+
+.contact-info h2{
+  font-weight: 700;
+}
+
+
+
+.contact-info a.contact-btn-bar{
+  font-weight: 700;
+  font-size: 1.4em;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+  min-width: 8em;
+  display: block;
+  padding-bottom: 2em;
+  position:relative;
+  z-index: 99;
+}
+
+.contact-info a.contact-btn-bar i{
+  color: #5fb157;
+}
+.contact-info a.contact-btn-bar img{
+  height: 28px;
+  width: auto;
+  padding-bottom: 6px;
+}
+
+.contact-info span{
+  font-weight: 300;
+  text-decoration: none !important;
+  display: inline-block;
+  position: relative;
+  top: -2em;
+  z-index: 9;
+}

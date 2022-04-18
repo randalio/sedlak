@@ -1,0 +1,123 @@
+.testimonial-rotator-block{
+  position: relative;
+}
+
+.testimonial-rotator-block .carousel-inner .carousel-item {
+  transition-duration: 1000ms !important;
+}
+
+.testimonial-rotator-block .carousel-fade{
+  display:flex;
+}
+
+.testimonial-rotator-block .row.slide_inner{
+  align-content: center;
+  justify-content: center;
+}
+
+
+.testimonial-rotator-block .text-background{
+}
+
+.testimonial-rotator-block .content-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-rotator-block .content-container p{
+  font-size: 1.1em;
+  line-height: 1.6em;
+  font-weight: 300;
+  width: 100%;
+}
+
+.testimonial-rotator-block .content-container strong{
+  font-weight: 600;
+  font-size:.9em;
+}
+
+.testimonial-rotator-block .carousel-tagline{
+}
+
+.testimonial-rotator-block .carousel-tagline img{
+  position:relative;
+  z-index:0;
+}
+
+.testimonial-rotator-block h3{
+  position: relative;
+  z-index:10;
+  font-weight: lighter;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 700;
+  color:#2e66ae !important;
+}
+.testimonial-rotator-block .carousel{
+  position: relative;
+  color: #181b61;
+  font-style: normal;
+}
+.testimonial-rotator-block .carousel_border{
+  position: absolute;
+  content: '';
+  display: block;
+  top: 1em;
+  left: 10%;
+}
+
+/* .testimonial-rotator-block a.arrow-control{
+  background: #2e66ae !important;
+} */
+
+.testimonial-rotator-block .carousel-control-prev-icon,
+.testimonial-rotator-block .carousel-control-next-icon{
+  background-image: none;
+  color: #5fb157;
+  font-size: 2em;
+}
+.testimonial-rotator-block .carousel-control-prev,
+.testimonial-rotator-block .carousel-control-next{
+  opacity: 0.2;
+}
+.testimonial-rotator-block .carousel-control-prev:hover,
+.testimonial-rotator-block .carousel-control-next:hover{
+  opacity: 0.9;
+}
+
+/*  */
+
+/* .testimonial-rotator-block .carousel-control-prev-icon:after{
+  content: '';
+} */
+
+
+/* @media (max-width: 1200px){
+  .testimonial-rotator-block h3{
+      font-size: 3.5em;
+  }
+} */
+
+
+/* @media (max-width: 1024px){
+  .testimonial-rotator-block h3{
+      font-size: 2.5em;
+  }
+} */
+
+
+@media (max-width: 991px){
+  .testimonial-rotator-block h3{
+      font-size: 2.5em;
+  }
+}
+
+@media (max-width:575px){
+  .testimonial-rotator-block h3{
+      font-size: 1.8em;
+  }
+}

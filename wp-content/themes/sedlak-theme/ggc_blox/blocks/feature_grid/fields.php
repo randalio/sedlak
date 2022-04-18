@@ -1,0 +1,122 @@
+<?php
+$fields =  array(
+	'key' => 'layout_feature_grid_'.$posttype,
+	'name' => 'feature_grid_'.$posttype,
+	'label' => 'Feature Grid',
+	'display' => 'block',
+	'sub_fields' => array(
+    array(
+      'key' => 'field_feature_grid_repeater_'.$posttype,
+      'label' => '',
+      'name' => 'feature_grid_repeater',
+      'type' => 'repeater',
+			'button_label' => 'Add Tile',
+      'sub_fields' => array(
+				array(
+          'key' => 'field_feature_grid_img_'.$posttype,
+          'label' => 'Image',
+          'name' => 'feature_grid_img',
+          'type' => 'image',
+          'instructions' => '',
+          'required' => 0,
+          'conditional_logic' => '',
+          'wrapper' => array(
+            'width' => '33',
+            'class' => '',
+            'id' => '',
+          ),
+          'preview_size' => 'medium',
+        ),
+				array(
+					'key' => 'field_feature_grid_content_'.$posttype,
+					'label' => '',
+					'name' => 'content',
+					'type' => 'group',
+					'sub_fields' => array(
+						array(
+		          'key' => 'field_feature_grid_headline_'.$posttype,
+		          'label' => 'Tile Headline',
+		          'name' => 'title',
+		          'type' => 'text',
+		          'instructions' => '',
+		          'required' => 0,
+		          'conditional_logic' => '',
+		          'wrapper' => array(
+		            'width' => '100',
+		            'class' => '',
+		            'id' => '',
+		          ),
+		        ),
+		        array(
+		          'key' => 'field_feature_grid_text_'.$posttype,
+		          'label' => 'Tile Text',
+		          'name' => 'text',
+		          'type' => 'textarea',
+		          'rows' => 4,
+		          'instructions' => '',
+		          'required' => 0,
+		          'conditional_logic' => '',
+		          'wrapper' => array(
+		            'width' => '100',
+		            'class' => '',
+		            'id' => '',
+		          ),
+		        ),
+		        array(
+		          'key' => 'field_feature_grid_button_text_'.$posttype,
+		          'label' => 'Button Text',
+		          'name' => 'button_text',
+		          'type' => 'text',
+		          'instructions' => '',
+		          'required' => 0,
+		          'conditional_logic' => '',
+		          'wrapper' => array(
+		            'width' => '60',
+		            'class' => '',
+		            'id' => '',
+		          ),
+		        ),
+		        array(
+		          'key' => 'field_feature_grid_button_link_'.$posttype,
+		          'label' => 'Button Link',
+		          'name' => 'button_link',
+		          'type' => 'link',
+		          'instructions' => '',
+		          'required' => 0,
+		          'conditional_logic' => '',
+		          'wrapper' => array(
+		            'width' => '40',
+		            'class' => '',
+		            'id' => '',
+		          ),
+		        ),
+					),
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => '',
+					'wrapper' => array(
+						'width' => '66',
+						'class' => '',
+						'id' => '',
+					),
+				),
+      ),
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => 0,
+      'layout' => 'block',
+      'wrapper' => array(
+        'width' => '',
+        'class' => '',
+        'id' => '',
+      ),
+      'placement' => 'top',
+      'endpoint' => 0,
+    ),
+	),
+	'min' => '0',
+	'max' => '',
+);
+
+//return $fields;
+?>

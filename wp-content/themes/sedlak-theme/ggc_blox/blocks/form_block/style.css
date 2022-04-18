@@ -1,0 +1,75 @@
+.form-block.full-width{
+  background-color: #f0f2f3;
+}
+
+.form-block h2{
+  color: #5fb157;
+}
+
+.form-block.full-width h2{
+  font-size: 3.5em;
+  line-height: 1.2em;
+}
+
+
+.form-block h4{
+  font-size: 1.25em;
+  line-height: 1.2em;
+  color: #464646;
+}
+
+.form-block p{
+  font-size: 1em;
+  line-height: 1.4rem;
+  color: #464646;
+}
+
+.form-block.full-width p{
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.form-block select{
+  height: 41px;
+}
+
+.form-block .gform_wrapper.gravity-theme .gfield_label{
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+
+.form-block .gform_wrapper .gfield_required{
+  color: #2e66ae;
+}
+
+.form-block .gform_wrapper.gravity-theme .gform_footer input{
+  background: #5fb157;
+  color: #fff;
+  border: 0px solid #5fb157;
+  padding: 0.66em 3em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form-block .gform_wrapper .gfield_validation_message,
+.form-block .gform_wrapper .validation_message,
+.form-block .gform_wrapper.gravity-theme .gfield_description{
+  font-size: 0.75em !important;
+  padding-top: unset !important;
+  padding: 0.5em !important;
+}
+
+.form-block .gform_wrapper .gform_validation_errors>h2 .gform-icon{
+  left: 4px;
+}
+
+.form-block .gform_wrapper .gform_validation_errors{
+  padding: 4px 4px 4px 34px;
+}
+
+.form-block input:not([type='checkbox']),
+.form-block input:not([type='radio']),
+.form-block select,
+.form-block textarea{
+  border: 1px solid #c1c8cd;
+}
